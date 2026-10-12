@@ -36,8 +36,31 @@ int main()
 	cout << "" << endl;
 	cout << "Mean of those integers: " << mean << endl;
 	cout << "Standard Deviation of integers: " << SD << endl;
-	
-	
+	cout << "" << endl;
+
+
+
+	//Now we will have the user imput 4 numbers
+	//Gives identities for the user numbers
+	int userNum1 = 0;
+	int userNum2 = 0;
+	int userNum3 = 0;
+	int userNum4 = 0;
+
+	//Allows them to enter their numbers
+	cout << "Now you enter 4 numbers" << endl;
+	cin >> userNum1;
+	cin >> userNum2;
+	cin >> userNum3;
+	cin >> userNum4;
+
+	//Calculates the users numbers into Mean and Population Standard Deviation
+	double userMean = (userNum1 + userNum2 + userNum3 + userNum4) / 4.0;
+	double userSD = std::sqrt(((userNum1 - userMean) * (userNum1 - userMean) + (userNum2 - userMean) * (userNum2 - userMean) + (userNum3 - userMean) * (userNum3 - userMean) + (userNum4 - userMean) * (userNum4 - userMean)) / 4.0);
+
+	//Shows their numbers 
+	cout << "Mean of those integers: " << userMean << endl;
+	cout << "Standard Deviation of integers: " << userSD << endl;
 
 
 	//Output file
@@ -52,6 +75,15 @@ int main()
 	Output << "Data from the file: " << Input4 << endl;
 	Output << "Mean of those integers: " << mean << endl;
 	Output << "Standard Deviation of integers: " << SD << endl;
+	Output << "" << endl;
+
+	//Stores the User data into the output data
+	Output << "Data from the file: " << userNum1 << endl;
+	Output << "Data from the file: " << userNum2 << endl;
+	Output << "Data from the file: " << userNum3 << endl;
+	Output << "Data from the file: " << userNum4 << endl;
+	Output << "Mean of those integers: " << userMean << endl;
+	Output << "Standard Deviation of integers: " << userSD << endl;
 	Output << "" << endl;
 
 
