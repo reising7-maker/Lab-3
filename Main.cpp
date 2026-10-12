@@ -29,10 +29,11 @@ int main()
 
 
 	//Tells user what each input is
-	cout << "Data from the file 1: " << Input1 << endl;
-	cout << "Data from the file 2: " << Input2 << endl;
-	cout << "Data from the file 3: " << Input3 << endl;
-	cout << "Data from the file 4: " << Input4 << endl;
+	cout << "Here are four numbers:" << endl;
+	cout << "First number: " << Input1 << endl;
+	cout << "Second number: " << Input2 << endl;
+	cout << "Third number: " << Input3 << endl;
+	cout << "Fourth number: " << Input4 << endl;
 	cout << "" << endl;
 	cout << "Mean of those integers: " << mean << endl;
 	cout << "Standard Deviation of integers: " << SD << endl;
