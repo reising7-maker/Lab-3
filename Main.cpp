@@ -59,7 +59,7 @@ int main()
 	double userMean = (userNum1 + userNum2 + userNum3 + userNum4) / 4.0;
 	double userSD = std::sqrt(((userNum1 - userMean) * (userNum1 - userMean) + (userNum2 - userMean) * (userNum2 - userMean) + (userNum3 - userMean) * (userNum3 - userMean) + (userNum4 - userMean) * (userNum4 - userMean)) / 4.0);
 
-	//Shows their numbers 
+	//Shows their numbers mean and SD
 	cout << "Mean of those integers: " << userMean << endl;
 	cout << "Standard Deviation of integers: " << userSD << endl;
 
@@ -79,10 +79,10 @@ int main()
 	Output << "" << endl;
 
 	//Stores the User data into the output data
-	Output << "Data from the file: " << userNum1 << endl;
-	Output << "Data from the file: " << userNum2 << endl;
-	Output << "Data from the file: " << userNum3 << endl;
-	Output << "Data from the file: " << userNum4 << endl;
+	Output << "Data from the user: " << userNum1 << endl;
+	Output << "Data from the user: " << userNum2 << endl;
+	Output << "Data from the user: " << userNum3 << endl;
+	Output << "Data from the user: " << userNum4 << endl;
 	Output << "Mean of those integers: " << userMean << endl;
 	Output << "Standard Deviation of integers: " << userSD << endl;
 	Output << "" << endl;
