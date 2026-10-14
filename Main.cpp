@@ -1,3 +1,11 @@
+// Levi Reising
+// Computer Science
+/* Description: This lab is meant to take 4 integers from a input file and 4 integers
+	from user input and display the mean and population standard deviation of those numbers.
+	It will then display those numbers both to the user, and to a seperate output file.	*/
+
+
+
 //Includes these libraries in the code
 #include <iostream>
 #include <fstream>
@@ -13,9 +21,7 @@ int main()
 	//File Input
 	ifstream infile;
 	//Opens the data.dat file
-	/* Description: This lab is meant to take 4 integers from a input file and 4 integers
-	from user input and display the mean and population standard deviation of those numbers.
-	It will then display those numbers both to the user, and to a seperate output file.	*/
+	
 
 	infile.open("C:/Users/reising7/source/repos/Lab 3/inMeanStd.dat");
 
